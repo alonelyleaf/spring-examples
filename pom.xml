@@ -18,6 +18,7 @@
     <modules>
         <module>spring-example-aop</module>
         <module>spring-example-security</module>
+        <module>spring-cloud-alibaba</module>
     </modules>
 
 </project>
