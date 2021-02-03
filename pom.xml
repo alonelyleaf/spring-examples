@@ -19,6 +19,7 @@
         <module>spring-example-aop</module>
         <module>spring-example-security</module>
         <module>spring-cloud-alibaba</module>
+        <module>spring-example-swagger</module>
     </modules>
 
 </project>
