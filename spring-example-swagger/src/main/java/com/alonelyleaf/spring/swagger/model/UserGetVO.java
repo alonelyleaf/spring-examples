@@ -1,4 +1,4 @@
-package com.alonelyleaf.swagger.model;
+package com.alonelyleaf.spring.swagger.model;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

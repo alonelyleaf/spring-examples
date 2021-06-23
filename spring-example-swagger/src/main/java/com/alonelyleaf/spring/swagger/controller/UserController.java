@@ -1,7 +1,7 @@
-package com.alonelyleaf.swagger.controller;
+package com.alonelyleaf.spring.swagger.controller;
 
-import com.alonelyleaf.swagger.model.UserGetDTO;
-import com.alonelyleaf.swagger.model.UserGetVO;
+import com.alonelyleaf.spring.swagger.model.UserGetDTO;
+import com.alonelyleaf.spring.swagger.model.UserGetVO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.PostMapping;
