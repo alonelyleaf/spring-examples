@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.alonelyleaf</groupId>
+        <artifactId>spring-examples</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>spring-example-seata</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>spring-example-seata</name>
+    <description>Demo project for Spring Boot</description>
+
+    <modules>
+        <module>spring-example-seata-base</module>
+        <module>spring-example-seata-order</module>
+        <module>spring-example-seata-storage</module>
+    </modules>
+
+    <properties>
+        <java.version>1.8</java.version>
+
+        <mysql.version>8.0.23</mysql.version>
+        <mybatis.version>2.1.3</mybatis.version>
+        <mybatis-plus.version>3.4.2</mybatis-plus.version>
+
+        <nacos.config.version>2.2.1.RELEASE</nacos.config.version>
+        <nacos.discovery.version>2.2.1.RELEASE</nacos.discovery.version>
+
+        <swagger-xiaoymin.version>3.0.2</swagger-xiaoymin.version>
+
+        <spring-cloud.version>Hoxton.SR10</spring-cloud.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+</project>

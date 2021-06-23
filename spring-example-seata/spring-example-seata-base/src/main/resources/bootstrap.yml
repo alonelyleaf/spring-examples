@@ -1,0 +1,20 @@
+
+# 关闭 默认数据源自动代理（默认开启）
+seata.enable-auto-data-source-proxy: false
+
+# nacos 配置
+spring.cloud:
+  nacos:
+    config:
+      server-addr: 8.140.128.40:8850
+      fileExtension: yaml
+      sharedConfigs:
+        - dataid: maple.yaml
+          group: DEFAULT_GROUP
+          refresh: true
+        - dataid: maple-account.yaml
+          group: DEFAULT_GROUP
+          refresh: true
+    discovery:
+      server-addr: 8.140.128.40:8850
+      namespace: dev
