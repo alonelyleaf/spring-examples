@@ -22,6 +22,7 @@
         <module>spring-example-swagger</module>
         <module>spring-example-seata</module>
         <module>spring-cloud-stream</module>
+        <module>spring-example-statemachine</module>
     </modules>
 
 </project>
